@@ -9,8 +9,6 @@ classifiers = [
     "Intended Audience :: System Administrators",
     "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Topic :: Software Development",
     "Topic :: Software Development :: Documentation",
@@ -50,11 +48,11 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
     include_package_data=True,
-    python_requires=">=3.7",
+    python_requires=">=3.9",
     install_requires=[
         'setuptools',
         'funcparserlib>=1.0.0a0',
-        'Pillow > 3.0',
+        'Pillow>=10.0',
         'webcolors',
     ],
     extras_require={

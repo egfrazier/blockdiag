@@ -1,6 +1,10 @@
 Changelog
 =========
 
+Unreleased
+------------------
+* Drop Python 3.7 and 3.8 support
+
 3.0.0 (2021-12-06)
 ------------------
 * Drop python3.6 support

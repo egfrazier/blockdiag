@@ -15,7 +15,7 @@
 
 Features
 ========
-* Generate block-diagram from dot like text (basic feature).
+* Generate block-diagram from DOT-like text (basic feature).
 * Multilingualization for node-label (utf-8 only).
 
 You can get some examples and generated images on
@@ -102,8 +102,8 @@ Execute blockdiag command::
 
 Requirements
 ============
-* Python 3.7 or later
-* Pillow 3.0 or later
+* Python 3.9 or later
+* Pillow 10.0 or later
 * funcparserlib 1.0.0a0 or later
 * reportlab (optional)
 * wand and imagemagick (optional)
